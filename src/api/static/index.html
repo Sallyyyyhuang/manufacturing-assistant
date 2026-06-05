@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Knowledge Assistant</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manufacturing Knowledge Assistant</h1>
+            <p class="subtitle">Ask questions about your manufacturing documents</p>
+        </header>
+
+        <div class="chat" id="chat">
+            <div class="message assistant">
+                <p>Hello! Upload manufacturing documents and ask me questions about them.</p>
+            </div>
+        </div>
+
+        <form class="input-area" id="ask-form">
+            <input
+                type="text"
+                id="question-input"
+                placeholder="Ask a question about your documents..."
+                autocomplete="off"
+            />
+            <button type="submit" id="send-btn">Send</button>
+        </form>
+
+        <div class="upload-area">
+            <input type="file" id="file-input" multiple accept=".pdf,.docx,.txt,.csv,.xlsx,.xls" />
+            <button id="upload-btn">Upload Documents</button>
+            <span id="upload-status"></span>
+        </div>
+
+        <footer>
+            <button id="docs-btn">View Documents</button>
+            <span id="doc-count"></span>
+        </footer>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
