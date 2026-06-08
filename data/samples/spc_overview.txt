@@ -1,0 +1,36 @@
+Statistical Process Control (SPC) Overview
+
+Statistical Process Control is a method of quality control which employs statistical methods to monitor and control a manufacturing process. SPC helps ensure the process operates efficiently, producing more specification-conforming products with less waste.
+
+Key Concepts:
+
+Process Variation: All manufacturing processes exhibit variation. SPC distinguishes between common cause variation (inherent to the process) and special cause variation (due to external factors).
+
+Control Charts: The primary tool of SPC. A control chart plots data points over time against calculated control limits (UCL - Upper Control Limit, LCL - Lower Control Limit, and CL - Center Line). Points within control limits indicate a stable process.
+
+Types of Control Charts:
+- X-bar and R charts: Monitor process mean and range for variable data
+- P charts: Monitor proportion of defective items
+- C charts: Monitor count of defects per unit
+- Individual and Moving Range (I-MR) charts: Used when subgroup size is 1
+
+Process Capability:
+- Cp: Measures potential capability (specification width / process width)
+- Cpk: Measures actual capability accounting for process centering
+- A Cpk >= 1.33 is generally considered acceptable for most manufacturing processes
+- A Cpk >= 1.67 is required for safety-critical characteristics
+
+Implementation Steps:
+1. Select the process characteristic to monitor
+2. Determine the measurement system and verify its adequacy (MSA)
+3. Collect initial data (minimum 25 subgroups recommended)
+4. Calculate control limits
+5. Plot data and analyze for stability
+6. Calculate process capability once the process is stable
+7. Implement ongoing monitoring and reaction plans
+
+Common SPC Rules for Detecting Special Causes (Western Electric Rules):
+- Rule 1: One point beyond 3 sigma from center line
+- Rule 2: Nine consecutive points on one side of center line
+- Rule 3: Six consecutive points steadily increasing or decreasing
+- Rule 4: Fourteen consecutive points alternating up and down

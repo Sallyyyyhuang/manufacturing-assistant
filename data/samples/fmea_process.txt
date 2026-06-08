@@ -1,0 +1,66 @@
+Failure Mode and Effects Analysis (FMEA) - Process Guide
+
+FMEA is a systematic method for identifying potential failure modes in a process, assessing their risk, and prioritizing corrective actions.
+
+Types of FMEA:
+- Design FMEA (DFMEA): Analyzes potential failures in product design
+- Process FMEA (PFMEA): Analyzes potential failures in manufacturing processes
+
+Risk Priority Number (RPN):
+RPN = Severity x Occurrence x Detection
+
+Severity (S) Scale (1-10):
+1: No effect
+2-3: Minor effect, slight inconvenience
+4-6: Moderate effect, customer experiences some dissatisfaction
+7-8: High effect, customer very dissatisfied
+9-10: Hazardous, potential safety issue without/with warning
+
+Occurrence (O) Scale (1-10):
+1: Failure unlikely (< 1 in 1,500,000)
+2-3: Low failure rate (1 in 150,000 to 1 in 15,000)
+4-6: Moderate failure rate (1 in 2,000 to 1 in 80)
+7-8: High failure rate (1 in 20 to 1 in 8)
+9-10: Very high failure rate (1 in 3 to 1 in 2)
+
+Detection (D) Scale (1-10):
+1-2: Almost certain detection, automated inspection with error-proofing
+3-4: High detection, automated inspection
+5-6: Moderate detection, manual inspection or SPC monitoring
+7-8: Low detection, visual inspection only
+9: Very low detection, indirect or random checks
+10: No detection method available
+
+PFMEA Process Steps:
+1. Identify the process steps and their functions
+2. Identify potential failure modes for each step
+3. Determine potential effects of each failure
+4. Assign Severity rating
+5. Identify potential causes of each failure mode
+6. Assign Occurrence rating
+7. Identify current process controls (prevention and detection)
+8. Assign Detection rating
+9. Calculate RPN
+10. Prioritize actions based on RPN and severity
+11. Implement corrective actions
+12. Re-assess RPN after actions
+
+Action Priority:
+- RPN > 200: Immediate corrective action required
+- RPN 120-200: Action required, plan improvement
+- RPN 80-120: Monitor and consider improvement
+- RPN < 80: Acceptable, continue monitoring
+
+Best Practices:
+- Start PFMEA during process planning, not after production starts
+- Include cross-functional team members (engineering, quality, production, maintenance)
+- Review and update PFMEA whenever process changes occur
+- Focus on high-severity items regardless of RPN
+- Link FMEA to control plans and work instructions
+- Use FMEA as a living document, not a one-time exercise
+
+Connection to Other Quality Tools:
+- Control Plan: Actions from FMEA drive control plan requirements
+- SPC: High-risk characteristics identified by FMEA should be monitored with SPC
+- 8D Problem Solving: FMEA helps prevent recurrence identified in 8D
+- PPAP: FMEA is a required element of the Production Part Approval Process

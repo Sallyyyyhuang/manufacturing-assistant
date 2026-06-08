@@ -1,0 +1,68 @@
+Overall Equipment Effectiveness (OEE) Guide
+
+OEE is the gold standard for measuring manufacturing productivity. It identifies the percentage of manufacturing time that is truly productive.
+
+OEE Formula:
+OEE = Availability x Performance x Quality
+
+The Three OEE Factors:
+
+1. Availability
+Accounts for planned and unplanned stoppages.
+Availability = Run Time / Planned Production Time
+
+Common availability losses:
+- Equipment failures and breakdowns
+- Material shortages
+- Changeover and setup time (if exceeding target)
+- Tooling failures
+
+2. Performance
+Accounts for slow cycles and small stops.
+Performance = (Ideal Cycle Time x Total Count) / Run Time
+
+Common performance losses:
+- Machine wear causing slow cycles
+- Operator inefficiency
+- Minor stops and idling
+- Suboptimal machine settings
+
+3. Quality
+Accounts for produced pieces that do not meet quality standards.
+Quality = Good Count / Total Count
+
+Common quality losses:
+- Process defects and rework
+- Startup rejects (during warmup)
+- Incorrect assembly
+- Damage during handling
+
+OEE Benchmarks:
+- World-class OEE: 85%
+- Typical OEE: 60%
+- Low OEE: below 40%
+
+World-class breakdown:
+- Availability: 90%
+- Performance: 95%
+- Quality: 99.9%
+
+Improvement Strategies:
+1. Track OEE consistently across all equipment
+2. Focus on the biggest loss category first
+3. Use Pareto analysis to identify top contributors
+4. Implement TPM (Total Productive Maintenance) for availability
+5. Standardize work instructions for performance
+6. Apply root cause analysis (5-Why, Fishbone) for quality issues
+
+Example Calculation:
+Planned Production Time: 480 minutes (8-hour shift)
+Downtime: 60 minutes
+Total Parts Produced: 400
+Defective Parts: 20
+Ideal Cycle Time: 1 minute/part
+
+Availability = (480 - 60) / 480 = 87.5%
+Performance = (1 x 400) / 420 = 95.2%
+Quality = (400 - 20) / 400 = 95.0%
+OEE = 87.5% x 95.2% x 95.0% = 79.1%
