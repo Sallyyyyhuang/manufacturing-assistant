@@ -2,8 +2,6 @@
 
 AI-powered knowledge base for manufacturing documents. Upload documents (PDF, Word, Excel, TXT), ask questions, and get cited answers powered by RAG (Retrieval-Augmented Generation).
 
-## Screenshot
-
 ![Chat UI](docs/screenshot.png)
 
 ## Architecture
